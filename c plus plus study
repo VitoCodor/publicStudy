@@ -5,3 +5,31 @@ c++ 加密/解密的实现
 
 C++ 读取配置文件的方法
   http://blog.csdn.net/thanklife/article/details/52953475
+  
+C++ 遍历map的简单方法
+  第一种: 
+  map<string,int> m;
+  map<string,int>::iterator it;
+  it = m.begin();
+  while(it != m.end())
+  {
+      //it->first;
+      //it->second;
+      it ++;         
+  }
+  
+  第二种: 
+      一。定义如：map < int, CString > 或者 map < int, 结构体名>的元素遍历
+                map < int, CString >  map;      
+          或者map < int, 结构体名> map;
+          for（int  i=0；i < map. size() ;  i++） 
+          {
+              CString s=map[ i ];
+          }
+      二。定义如：map < CString , 结构体名> 的元素遍历
+         map <std::string , 结构体名>  map;    
+         map <std::string , 结构体名>::iterator  iter;
+         for( iter=map.begin(); iter!=map.end(); iter++)
+         {
+             if(iter.firsh=="abc") cout<<iter.second;
+         }
