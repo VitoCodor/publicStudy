@@ -1,0 +1,7 @@
+create database if not exists `db_name`
+
+
+修改数据库的表结构
+  https://www.cnblogs.com/jiaxiaoai/archive/2011/05/22/2053719.html
+  alter table 表名 modify 字段名 字段类型
+  alter table 表名 change 旧字段 新字段 字段类型
