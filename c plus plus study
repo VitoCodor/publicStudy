@@ -1,3 +1,5 @@
+C++ 关于加/解密的一些资料
+
 c++ 加密/解密的实现
   http://blog.csdn.net/lisonglisonglisong/article/details/41909813
   https://www.cnblogs.com/mingcn/archive/2010/10/31/aes_c.html
@@ -33,3 +35,22 @@ C++ 遍历map的简单方法
          {
              if(iter.firsh=="abc") cout<<iter.second;
          }
+         
+   JAVA 和 c++ 加密内容的传递
+
+    http://blog.sina.com.cn/s/blog_48d4cf2d0101eqdf.html	Java和C/C++进行DES/AES密文传输
+    https://www.cnblogs.com/kolin/p/4256614.html			JNI调用c++实现AES加密解密
+    http://blog.csdn.net/mrxyz098/article/details/50789367/	C++ 128位 AES加密算法
+
+    https://www.cnblogs.com/liangxuehui/p/4651351.html		AES加密的四种模式详解
+
+
+    http://blog.csdn.net/lisonglisonglisong/article/details/41909813		AES加密算法的C++实现
+    https://www.cnblogs.com/mingcn/archive/2010/10/31/aes_c.html			AES加密算法(C++实现,附源码)
+
+
+
+    https://www.cnblogs.com/findumars/p/6009249.html		Crypto++编译使用
+
+    https://www.cryptopp.com/		c++实现AES加密解密
+    https://www.cryptopp.com/wiki/Advanced_Encryption_Standard				第三方实现的AES加密算法实现(C++实现)
