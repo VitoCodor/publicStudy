@@ -54,3 +54,11 @@ C++ 遍历map的简单方法
 
     https://www.cryptopp.com/		c++实现AES加密解密
     https://www.cryptopp.com/wiki/Advanced_Encryption_Standard				第三方实现的AES加密算法实现(C++实现)
+    
+    
+C++ 类的定义的应用
+    https://www.cnblogs.com/mr-wid/archive/2013/02/18/2916309.html      学习C++ -> 类(Classes)的定义与实现
+    
+C++连接连接数据库批量操作
+    http://www.jb51.net/article/52709.htm     C++操作MySQL大量数据插入效率低下的解决方法
+    http://www.crazyant.net/478.html          c/c++批量向mysql插入数据
