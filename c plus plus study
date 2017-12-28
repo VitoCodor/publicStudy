@@ -62,3 +62,9 @@ C++ 类的定义的应用
 C++连接连接数据库批量操作
     http://www.jb51.net/article/52709.htm     C++操作MySQL大量数据插入效率低下的解决方法
     http://www.crazyant.net/478.html          c/c++批量向mysql插入数据
+    
+C++读写文件, 逐行操作
+    http://blog.csdn.net/zhangchao3322218/article/details/7930857   C++中文件按行读取和逐词读取
+    
+C++ 字符串格式化拼接操作
+    https://www.cnblogs.com/52php/p/5724390.html        Linux C 字符串函数 sprintf()、snprintf() 详解
