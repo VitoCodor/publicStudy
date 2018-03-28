@@ -1,0 +1,3 @@
+1. SVN Update Error: Please execute the 'Cleanup' command 处理
+    1.1 svn clean up 中有一个选项break lock勾选上
+    1.2 把对应的文件来里的.svn里面的lock文件删除。
