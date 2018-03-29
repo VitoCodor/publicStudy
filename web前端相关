@@ -1,0 +1,43 @@
+web操作记录
+
+1. 需求: 一个form表单, 想在提交表单前检查用户是否对表单的数据进行了修改
+  实现:
+    定义一个全局变量 :isChange, 对每个需要检查的数据进行事件绑定, 若有一个数据的事件有改变, 就会触发全局变量的值;
+  当提交表单时, 对全局变量的值进行判断, 可以知道数据是否发生变化, 从而做出相关的操作
+  /** 这个例子只适用于低版本的js **/
+  <script type="text/javascript">
+      var isChange = false;
+			$(function () {
+                $('#name').bind('change', function() {
+                    isChange = true;
+					          // other operation could add here 
+                });
+				
+				        #### other function....
+				
+				        ....
+				
+			}
+  </script>
+  
+  /** 高版本js可适用于此方法 **/
+   <script type="text/javascript">
+      var isChange = false;
+			$(function () {
+            $("#validateForm").on("change", function () {
+			          var username = "${(globalConfig.username)!}";
+                var usernameEdit = $("#username").val();
+				
+				        if (username != usernameEdit {
+                    isChanged = true;
+                } else {
+                    isChanged = false;
+                }
+			      });
+				
+				    #### other function....
+				
+				    ....
+				
+			}
+  </script>
